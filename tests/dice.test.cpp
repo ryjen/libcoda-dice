@@ -1,6 +1,7 @@
 
 #include "dice.test.h"
 
+#include <limits>
 #include <string>
 
 #include "dice.h"
@@ -63,6 +64,10 @@ go_bandit([]() {
       die d(100);
 
       Assert::That(d.sides(), Equals(100));
+    });
+
+    it("throws invalid_argument for zero sides", []() {
+      AssertThrows(invalid_argument, die(0));
     });
 
     it("can be copied", []() {

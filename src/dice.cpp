@@ -28,7 +28,7 @@ namespace coda {
   die::die(const unsigned int sides, die::engine *const engine)
       : engine_(engine), value_(0) {
     if (sides == 0) {
-      throw new invalid_argument("dice must have one or more sides.");
+      throw invalid_argument("dice must have one or more sides.");
     }
 
     sides_ = sides;
