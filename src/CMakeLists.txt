@@ -10,6 +10,7 @@ set(${PROJECT_NAME}_YAHT_HEADERS
 )
 
 add_library(${PROJECT_NAME} ${${PROJECT_NAME}_HEADERS} ${${PROJECT_NAME}_YAHT_HEADERS} dice.cpp yaht/player.cpp yaht/scoresheet.cpp)
+target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_17)
 
 string(REPLACE "_" "/" INSTALL_DIRECTORY ${PROJECT_NAME})
 
