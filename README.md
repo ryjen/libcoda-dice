@@ -1,12 +1,11 @@
 > [!NOTE]
-> **Seamwork transition — ABSORB.** This repository is no longer an active standalone product. Useful dice/randomness/domain behavior is being absorbed into focused Seamwork studies rather than maintained as a standalone general-purpose library. See [Seamwork](https://github.com/ryjen/seamwork) for current C++23 interface and architecture refinement work.
+> **Seamwork transition — ABSORB.** This repository is no longer an active standalone product. Useful dice/randomness/domain behavior is selectively represented in Seamwork's C++23 Yahtzee randomness study rather than maintained as a standalone general-purpose library. See [Seamwork](https://github.com/ryjen/seamwork) for current C++23 interface and architecture refinement work.
+> [Migration decisions and pinned provenance](MIGRATION.md). Historical build instructions and APIs below are not a maintained Seamwork release.
 
 coda_dice
 =======
 
 
-[![Build Status](http://img.shields.io/travis/ryjen/dice.svg)](https://travis-ci.org/ryjen/dice)
-[![Coverage Status](https://coveralls.io/repos/ryjen/dice/badge.svg?branch=master&service=github)](https://coveralls.io/github/ryjen/dice?branch=master)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://ryjen.mit-license.org)
 
 A c++17 library for working with dice.  Implementations for different dice games (Yahtzee, etc.)
