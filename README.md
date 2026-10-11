@@ -1,3 +1,6 @@
+> [!NOTE]
+> **Seamwork transition — ABSORB.** This repository is no longer an active standalone product. Useful dice/randomness/domain behavior is being absorbed into focused Seamwork studies rather than maintained as a standalone general-purpose library. See [Seamwork](https://github.com/ryjen/seamwork) for current C++23 interface and architecture refinement work.
+
 coda_dice
 =======
 
